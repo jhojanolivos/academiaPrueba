@@ -4,7 +4,7 @@ Para correr el programa se debe seguir el siguiente tutorial:
 
 1. Abrir xampp y ejecutar MySQL y apache
 2. Abrir consola del sistema y ejecutar
-3. `cd academia` 
+3. `cd academiaPrueba` 
 4. `composer install`
 5. `cp .env.example .env`
 6. `php artisan key:generate` 
