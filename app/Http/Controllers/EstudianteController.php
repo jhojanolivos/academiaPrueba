@@ -41,6 +41,7 @@ class EstudianteController extends Controller
             "apellido" => "required",
             "email" => "required|email",
             "telefono" => "required",
+            "edad" => "required",
             "programa" => "required",
         ]);
         $estudiante = new Estudiante;
@@ -57,6 +58,7 @@ class EstudianteController extends Controller
             'apellido' => $request->apellido,
             'telefono' => $request->telefono,
             'email' => $request->email,
+            'edad' => $request->edad,
             'programa' => $request->programa,
             'contacto' => false
         ]);

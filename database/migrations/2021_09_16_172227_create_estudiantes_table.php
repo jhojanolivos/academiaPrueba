@@ -20,6 +20,7 @@ class CreateEstudiantesTable extends Migration
             $table->string('email')->unique();
             $table->string('telefono');
             $table->string('programa');
+            $table->string('edad');
             $table->boolean('contacto');
         });
     }

@@ -33,6 +33,7 @@
             <th scope="col">Apellido </th>
             <th scope="col">Correo</th>
             <th scope="col">telefono</th>
+            <th scope="col">edad </th>
             <th scope="col">programa </th>
             <th scope="col">contacto</th>
         </tr>
@@ -46,6 +47,7 @@
                 <td>{{$e['apellido']}}</td>
                 <td>{{$e['email']}}</td>
                 <td>{{$e['telefono']}}</td>
+                <td>{{$e['edad']}}</td>
                 <td>{{$e['programa']}}</td>
                 @if($e['contacto']==0)
                 <td>

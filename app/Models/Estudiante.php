@@ -9,5 +9,5 @@ class Estudiante extends Model
 {
     public $timestamps = false;
     use HasFactory;
-    protected $fillable=['nombre','apellido','email','telefono','programa','contacto'];
+    protected $fillable=['nombre','apellido','email','telefono','programa','contacto','edad'];
 }
